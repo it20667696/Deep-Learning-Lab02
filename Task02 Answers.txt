@@ -1,0 +1,15 @@
+1. What happens when the number of hidden nodes increase?
+
+Increasing the number of hidden nodes in a neural network generally increases its capacity to learn complex patterns but also raises the risk of overfitting. The trade-off involves a balance between better fitting the training data and maintaining good generalization to new data. The network's complexity, training time, and computational cost also rise with more hidden nodes. Experimentation and careful tuning are needed to find the right balance for each problem.
+
+2.Can you explain the pattern of the accuracy when the hidden nodes increase? 
+
+a).Accuracy Initially Improves: Accuracy generally gets better as the network gains the ability to capture more complex patterns in the data.
+
+b).Peak Accuracy: There's an optimal point where accuracy is highest, matching the problem's complexity.
+
+c).Overfitting Risk: Adding more nodes can lead to overfitting, causing accuracy to drop on new data.
+
+d).Diminishing Returns: After peak accuracy, adding more nodes yields minimal gains or even decreases accuracy.
+
+e).Stable Balance: Optimal hidden nodes strike a balance between complexity and generalization for stable accuracy.
